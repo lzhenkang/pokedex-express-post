@@ -66,6 +66,7 @@ app.post('/pokemon', (request, response) => {
     })
 })
 
+//Code for Edit
 app.put('/pokemon', (request, response) => {
     console.log(request.body)
     jsonfile.readFile(file, (err, obj) => {
